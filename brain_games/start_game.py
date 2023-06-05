@@ -7,6 +7,7 @@ def start_game(rules, game):
     print(f'Hello, {name}!')
     LIFES = 3
     win = True
+    print(rules)
 
     while LIFES > 0:
         question, correct_answer = game()
