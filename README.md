@@ -5,4 +5,5 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/c6d4902fcfb210a114c9/test_coverage)](https://codeclimate.com/github/Spring-Silver-Bird/python-project-lvl1/test_coverage)
 
-https://asciinema.org/a/RHIhaOZDFPRzXaYfad9UqNYET
+[![asciinema](https://asciinema.org/a/RHIhaOZDFPRzXaYfad9UqNYET)](https://asciinema.org/a/RHIhaOZDFPRzXaYfad9UqNYET)
+
