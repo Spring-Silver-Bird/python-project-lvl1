@@ -12,7 +12,7 @@ def start_game(rules, game):
     while LIFES > 0:
         question, correct_answer = game()
         print(f'Question: {question}')
-        user_answer = input('Your answer: ')
+        user_answer = int(input('Your answer: '))
 
         if user_answer == correct_answer:
             print('Correct!')
