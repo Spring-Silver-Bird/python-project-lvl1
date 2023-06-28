@@ -3,7 +3,7 @@ import prompt
 #Начало игры, принимаем правила и название игры
 def start_game(rules, game):
     print('Welcome to the Brain Games!')
-    name = prompt.string('May Ihave your name? ')
+    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     LIFES = 3
     win = True
@@ -12,7 +12,7 @@ def start_game(rules, game):
     while LIFES > 0:
         question, correct_answer = game()
         print(f'Question: {question}')
-        user_answer = int(input('Your answer: '))
+        user_answer = input('Your answer: ')
 
         if user_answer == correct_answer:
             print('Correct!')

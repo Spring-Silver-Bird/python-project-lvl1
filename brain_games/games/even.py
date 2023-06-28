@@ -4,9 +4,7 @@ import prompt
 rules = 'Answer "yes" if the number is even, otherwise answer "no".'
 LIFES = 3
 
-#Проверка на четность
-def is_even(number):
-    return number % 2 == 0
+
 
 
 #Описание логики игры
@@ -23,7 +21,9 @@ def game():
     else:
         corect_answer = 'no'
 
-    question = str(random_number)
+    question = random_number
     return question, corect_answer
 
-
+#Проверка на четность
+def is_even(random_number):
+    return random_number % 2 == 0
