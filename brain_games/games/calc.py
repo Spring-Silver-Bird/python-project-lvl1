@@ -9,7 +9,7 @@ LIFES = 3
 #Функция возвращает вопрос и правильный ответ
 def game():
     min_number = 1 #Минимальное рандомное число
-    max_number = 100 #Максимальное рандомное число
+    max_number = 10 #Максимальное рандомное число
     random_number1 = randint(min_number, max_number)
     random_number2 = randint(min_number, max_number)
     operator = ["+", "-", "*"] #Перечень операторов
@@ -24,8 +24,8 @@ def game():
     else:
         corect_answer = random_number1 * random_number2
 
-    question = str(random_number1) + random_operator + str(random_number2)
-    return question, corect_answer
+    question = str(random_number1) + " " + str(random_operator) + " " + str(random_number2)
+    return question, str(corect_answer)
 
 
 
