@@ -9,3 +9,10 @@
 
 https://asciinema.org/a/RHIhaOZDFPRzXaYfad9UqNYET
 
+### Asciinema for brain-calc:
+
+
+### Asciinema for brain-gcd:
+
+
+### Asciinema for brain-progression:
