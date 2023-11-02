@@ -1,6 +1,8 @@
 import prompt
 
-#Начало игры, принимаем правила и название игры
+# Начало игры, принимаем правила и название игры
+
+
 def start_game(rules, game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -21,8 +23,8 @@ def start_game(rules, game):
                 f"'{correct_answer}'. \nLet's try again, {name}!")
             win = False
             break
-        LIFES -= 1
 
+        LIFES -= 1
 
     if win:
         print(f'Congratulations, {name}!')
