@@ -17,7 +17,9 @@ def game():
     for i in range(2, max(random_number1, random_number2)):
         if random_number1 % i == 0 and random_number2 % i == 0:
             corect_answer = i
-    if corect_answer == 0:
+    if random_number1 == random_number2:
+        corect_answer = random_number1
+    elif corect_answer == 0:
         corect_answer = 1
 
     question = str(random_number1) + " " + str(random_number2)
