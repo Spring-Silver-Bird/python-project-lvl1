@@ -13,7 +13,7 @@ def game():
     step = randint(min_number, max_number)  # Шаг последовательности
     progression_lenth = 10  # Длина выводимой прогрессии
     progression = [str(first_number + i * step) for i in range(progression_lenth)]  # Прогрессия
-    random_member = randint(0, progression_lenth)  # Выбираем рандомный член прогресии
+    random_member = randint(0, progression_lenth-1)  # Выбираем рандомный член прогресии
 
     # Вычисляем правильный ответ:
     corect_answer = progression[random_member]
