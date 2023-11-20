@@ -8,7 +8,7 @@ LIFES = 3
 
 
 def game():
-    min_number = 1  # Минимальное рандомное число
+    min_number = 2  # Минимальное рандомное число
     max_number = 100  # Максимальное рандомное число
     random_number = randint(min_number, max_number)
 
