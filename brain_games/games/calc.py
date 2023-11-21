@@ -18,9 +18,9 @@ def game():
     if random_operator == "+":
         corect_answer = random_number1 + random_number2
     elif random_operator == "-":
-        corect_answer = random_number1 - random_number2
+        corect_answer = str(random_number1 - random_number2)
     else:
-        corect_answer = random_number1 * random_number2
+        corect_answer = str(random_number1 * random_number2)
 
-    question = str(random_number1) + " " + str(random_operator) + " " + str(random_number2)
-    return question, str(corect_answer)
+    question = random_number1 + " " + random_operator + " " + random_number2
+    return question, corect_answer

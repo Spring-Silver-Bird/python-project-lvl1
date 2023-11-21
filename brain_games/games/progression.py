@@ -9,12 +9,15 @@ LIFES = 3
 def game():
     min_number = 0  # Минимальное рандомное число
     max_number = 100  # Максимальное рандомное число
-    first_number = randint(min_number, max_number)  # Первое число последовательности
-    step = randint(min_number, max_number)  # Шаг последовательности
+    # Первое число последовательности
+    first_number = randint(min_number, max_number)
+    # Шаг последовательности:
+    step = randint(min_number, max_number)
     progression_lenth = 10  # Длина выводимой прогрессии
-    progression = [str(first_number + i * step) for i in range(progression_lenth)]  # Прогрессия
-    random_member = randint(0, progression_lenth-1)  # Выбираем рандомный член прогресии
-
+    # Прогрессия:
+    progression = [str(first_number + i*step) for i in range(progression_lenth)]
+    # Выбираем рандомный член прогресии:
+    random_member = randint(0, progression_lenth-1)
     # Вычисляем правильный ответ:
     corect_answer = progression[random_member]
     # Вычисляем правильный ответ:

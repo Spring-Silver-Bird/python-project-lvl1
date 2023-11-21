@@ -12,7 +12,6 @@ def game():
     max_number = 100  # Максимальное рандомное число
     random_number = randint(min_number, max_number)
 
-
     if is_prime(random_number):
         corect_answer = 'yes'
     else:
