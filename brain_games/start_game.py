@@ -20,7 +20,7 @@ def start_game(rules, game):
             print('Correct!')
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was "
-                f"'{correct_answer}'. \nLet's try again, {name}!")
+                  f"'{correct_answer}'. \nLet's try again, {name}!")
             win = False
             break
 
