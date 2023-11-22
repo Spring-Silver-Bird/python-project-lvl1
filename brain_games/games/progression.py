@@ -10,12 +10,12 @@ def game():
     min_number = 0  # Минимальное рандомное число
     max_number = 100  # Максимальное рандомное число
     # Первое число последовательности
-    first_number = randint(min_number, max_number)
+    first_num = randint(min_number, max_number)
     # Шаг последовательности:
     step = randint(min_number, max_number)
     progression_lenth = 10  # Длина выводимой прогрессии
     # Прогрессия:
-    progression = [str(first_number + i * step) for i in range(progression_lenth)]
+    progression = [str(first_num + i * step) for i in range(progression_lenth)]
     # Выбираем рандомный член прогресии:
     random_member = randint(0, progression_lenth - 1)
     # Вычисляем правильный ответ:
