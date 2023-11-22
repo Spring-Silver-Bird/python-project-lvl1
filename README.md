@@ -23,7 +23,8 @@ https://asciinema.org/a/GgkZW1Q5b5TsMy2kqZ34Z2BTJ
 
 ### Asciinema for brain-progression:
 
-
+https://asciinema.org/connect/955f2ce8-f869-4a68-97cd-fd48fa926ceb
 
 ### Asciinema for brain-prime:
 
+https://asciinema.org/connect/955f2ce8-f869-4a68-97cd-fd48fa926ceb
