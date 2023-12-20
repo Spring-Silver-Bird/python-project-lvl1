@@ -11,7 +11,7 @@ https://asciinema.org/connect/955f2ce8-f869-4a68-97cd-fd48fa926ceb
 
 ### Asciinema for brain-even:
 
-https://asciinema.org/a/DoZHzVT1zyo0QsRWEqOFaYhZr
+[![asciicast](https://asciinema.org/a/dqeJS1BAOqbSCDJT4focc3nKg.svg)](https://asciinema.org/a/dqeJS1BAOqbSCDJT4focc3nKg)
 
 ### Asciinema for brain-calc:
 
