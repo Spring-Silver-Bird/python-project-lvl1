@@ -8,30 +8,36 @@ MIN_NUMBER = 1 # Минимальное рандомное число
 MAX_NUMBER = 100 # Максимальное рандомное число
 MIN_STEP = 2 # Минимальный шаг последовательности
 MAX_STEP = 25 # Максимальный шаг последовательности
- 
+
 
 # Описание логики игры
 # Вычисляем прогрессию:
 def make_progression(size, first_num, step):
-    progression = [first_num + i * step for i in range(size)]
-    return progression
+    """
+    Make arithmetic progression.
+    """
+    return [str(first_num + i * step) for i in range(size)]
+
+
+def  progression_question(prog, member):
+    prog[member] = '..'
+    return ' '.join(prog)
+
 
 # Функция возвращает вопрос и правильный ответ
 def game():
     # Размер последовательности:
     size = randint(MIN_COUNT, MAX_COUNT)
     # Первый член последовательности:
-    first_num = randint(MIN_NUMBER, MAX_NUMBER)
+    first_element = randint(MIN_NUMBER, MAX_NUMBER)
     # Шаг последовательности:
     step = randint(MIN_STEP, MAX_STEP)
     # Прогрессия:
-    progression = progression(size, first_num, step)
+    progression = make_progression(size, first_element, step)
     # Выбираем рандомный член прогресии:
-    random_member = randint(size)
+    random_member = randint(0, size - 1)
     # Вычисляем правильный ответ:
     corect_answer = progression[random_member]
-    # Вычисляем правильный ответ:
-    progression[random_member] = '..'
-
-    question = ' '.join(progression)
-    return question, str(corect_answer)
+    # Формируем вопрос:
+    question = progression_question(progression, random_member)
+    return question, corect_answer
