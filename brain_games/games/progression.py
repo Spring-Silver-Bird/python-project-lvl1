@@ -2,12 +2,12 @@ from random import randint
 
 rules = 'What number is missing in the progression?'
 LIFES = 3
-MIN_COUNT = 5 # Минимальная длина выводимой прогрессии
-MAX_COUNT = 10 # Максимальная длина выводимой прогрессии
-MIN_NUMBER = 1 # Минимальное рандомное число
-MAX_NUMBER = 100 # Максимальное рандомное число
-MIN_STEP = 2 # Минимальный шаг последовательности
-MAX_STEP = 25 # Максимальный шаг последовательности
+MIN_COUNT = 5  # Минимальная длина выводимой прогрессии
+MAX_COUNT = 10  # Максимальная длина выводимой прогрессии
+MIN_NUMBER = 1  # Минимальное рандомное число
+MAX_NUMBER = 100  # Максимальное рандомное число
+MIN_STEP = 2  # Минимальный шаг последовательности
+MAX_STEP = 25  # Максимальный шаг последовательности
 
 
 # Описание логики игры
@@ -19,7 +19,7 @@ def make_progression(size, first_num, step):
     return [str(first_num + i * step) for i in range(size)]
 
 
-def  progression_question(prog, member):
+def progression_question(prog, member):
     prog[member] = '..'
     return ' '.join(prog)
 

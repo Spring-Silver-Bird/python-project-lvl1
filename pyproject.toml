@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "This is a collection of games. Even number. Evaluate expression. Find the greatest common multiple. Is it a simple number. Determine the missing term of the progression."
 authors = ["Ukhlina Ekaterina <adelaida_19@mail.ru>"]
 readme = "README.md"
+repository = "https://github.com/Spring-Silver-Bird/python-project-lvl1/tree/main"
 packages = [{include = "brain_games"}]
 
 [tool.poetry.dependencies]
