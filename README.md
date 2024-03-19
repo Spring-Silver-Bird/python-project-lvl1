@@ -35,4 +35,8 @@
 
 ### How work brain-prime:
 
+<<<<<<< HEAD
 [![asciicast](https://asciinema.org/a/uBm4T9HQu4sKal66xZ7RfglE3.svg)](https://asciinema.org/a/uBm4T9HQu4sKal66xZ7RfglE3)
+=======
+[![asciicast](https://asciinema.org/a/uBm4T9HQu4sKal66xZ7RfglE3.svg)](https://asciinema.org/a/uBm4T9HQu4sKal66xZ7RfglE3)
+>>>>>>> 33929b6 (modified files)
