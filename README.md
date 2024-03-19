@@ -1,9 +1,5 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Spring-Silver-Bird/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Spring-Silver-Bird/python-project-lvl1/actions)
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/c6d4902fcfb210a114c9/maintainability)](https://codeclimate.com/github/Spring-Silver-Bird/python-project-lvl1/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/c6d4902fcfb210a114c9/test_coverage)](https://codeclimate.com/github/Spring-Silver-Bird/python-project-lvl1/test_coverage)
+ ### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Spring-Silver-Bird/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Spring-Silver-Bird/python-project-lvl1/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/c6d4902fcfb210a114c9/maintainability)](https://codeclimate.com/github/Spring-Silver-Bird/python-project-lvl1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c6d4902fcfb210a114c9/test_coverage)](https://codeclimate.com/github/Spring-Silver-Bird/python-project-lvl1/test_coverage)
 
 * ## Installation:
 
@@ -17,26 +13,26 @@
     * ##### *brain-progression* - Launching the game to find the missing element of the progression.
     * ##### *brain-prime* - Launching the game to determine a prime number.
 
+### How install and work brain-even:
+
+[![asciicast](https://asciinema.org/a/o2kqob9kR4bIghvRfpXHVQFeF.svg)](https://asciinema.org/a/o2kqob9kR4bIghvRfpXHVQFeF)
+
 ### How work brain-even:
 
-https://asciinema.org/connect/955f2ce8-f869-4a68-97cd-fd48fa926ceb
-
-### How work brain-even:
-
-[![asciicast](https://asciinema.org/a/dqeJS1BAOqbSCDJT4focc3nKg.svg)](https://asciinema.org/a/dqeJS1BAOqbSCDJT4focc3nKg)
+[![asciicast](https://asciinema.org/a/o2kqob9kR4bIghvRfpXHVQFeF.svg)](https://asciinema.org/a/o2kqob9kR4bIghvRfpXHVQFeF)
 
 ### How work brain-calc:
 
-https://asciinema.org/a/zB9xkO3ZFjluQQ3C6hMjOwwfl
+[![asciicast](https://asciinema.org/a/kwBYjL6D7bwJ0K64KOFZDpVMU.svg)](https://asciinema.org/a/kwBYjL6D7bwJ0K64KOFZDpVMU)
 
 ### How work brain-gcd:
 
-https://asciinema.org/a/GgkZW1Q5b5TsMy2kqZ34Z2BTJ
+[![asciicast](https://asciinema.org/a/dwr6mtZG8irOuNbAS0UuiOSX5.svg)](https://asciinema.org/a/dwr6mtZG8irOuNbAS0UuiOSX5)
 
 ### How work brain-progression:
 
-https://asciinema.org/connect/955f2ce8-f869-4a68-97cd-fd48fa926ceb
+[![asciicast](https://asciinema.org/a/4M9KYbvTHCpMw1cLsp4KjWkcW.svg)](https://asciinema.org/a/4M9KYbvTHCpMw1cLsp4KjWkcW)
 
 ### How work brain-prime:
 
-https://asciinema.org/connect/955f2ce8-f869-4a68-97cd-fd48fa926ceb
+[![asciicast](https://asciinema.org/a/uBm4T9HQu4sKal66xZ7RfglE3.svg)](https://asciinema.org/a/uBm4T9HQu4sKal66xZ7RfglE3)
