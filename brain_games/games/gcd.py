@@ -1,7 +1,6 @@
 from random import randint
 
 rules = 'Find the greatest common divisor of given numbers.'
-LIFES = 3
 MIN_NUMBER = 2  # Минимальное рандомное число
 MAX_NUMBER = 100  # Максимальное рандомное число
 

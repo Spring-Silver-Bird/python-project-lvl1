@@ -1,7 +1,6 @@
 from random import randint, choice
 
 rules = 'What is the result of the expression?'
-LIFES = 3
 
 
 # Описание логики игры

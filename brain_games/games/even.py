@@ -1,7 +1,6 @@
 from random import randint
 
 rules = 'Answer "yes" if the number is even, otherwise answer "no".'
-LIFES = 3
 
 
 # Описание логики игры

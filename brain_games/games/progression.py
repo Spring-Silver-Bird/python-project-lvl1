@@ -1,7 +1,6 @@
 from random import randint
 
 rules = 'What number is missing in the progression?'
-LIFES = 3
 MIN_COUNT = 5  # Минимальная длина выводимой прогрессии
 MAX_COUNT = 10  # Максимальная длина выводимой прогрессии
 MIN_NUMBER = 1  # Минимальное рандомное число

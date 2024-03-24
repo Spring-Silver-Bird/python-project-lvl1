@@ -1,7 +1,6 @@
 from random import randint
 
 rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-LIFES = 3
 
 # Описание логики игры
 # Функция возвращает вопрос и правильный ответ
