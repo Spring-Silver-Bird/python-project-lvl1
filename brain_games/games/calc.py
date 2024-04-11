@@ -3,17 +3,17 @@ from random import randint, choice
 rules = 'What is the result of the expression?'
 
 
-# Описание логики игры
-# Функция возвращает вопрос и правильный ответ
-def game():
-    min_number = 1  # Минимальное рандомное число
-    max_number = 10  # Максимальное рандомное число
+# Description of the logic of the game
+# The function returns the question and the correct answer
+def get_question_and_answer():
+    min_number = 1
+    max_number = 10
     random_number1 = randint(min_number, max_number)
     random_number2 = randint(min_number, max_number)
-    operator = ["+", "-", "*"]  # Перечень операторов
-    random_operator = choice(operator)  # Выбираем рандомный оператор
+    operator = ["+", "-", "*"]
+    random_operator = choice(operator)
 
-    # Вычисляем правильный ответ:
+    # Calculating the correct answer:
     if random_operator == "+":
         corect_answer = random_number1 + random_number2
     elif random_operator == "-":

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from brain_games.start_game import start_game
-from brain_games.games.progression import game, rules
+from brain_games.engine import play_game
+from brain_games.games.progression import make_game_data, rules
 
 
 def main():
@@ -8,7 +8,7 @@ def main():
 
 
 def brain_games_even():
-    start_game(rules, game)
+    play_game(rules, make_game_data)
 
 
 if __name__ == '__main__':

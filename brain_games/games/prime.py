@@ -1,12 +1,12 @@
 from random import randint
+from math import sqrt
 
 rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-# Описание логики игры
-# Функция возвращает вопрос и правильный ответ
 
-
-def game():
+# Description of the logic of the game
+# The function returns the question and the correct answer
+def get_question_and_answer():
     min_number = 2  # Минимальное рандомное число
     max_number = 100  # Максимальное рандомное число
     random_number = randint(min_number, max_number)
@@ -20,10 +20,11 @@ def game():
     return question, corect_answer
 
 
-# Проверка на четность
+# Checking for parity
 def is_prime(random_number):
     flag = True
-    for i in range(2, random_number):
+    max_num_for_check = int(sqrt(random_number))
+    for i in range(2, max_num_for_check):
         if random_number % i == 0:
             flag = False
     return flag

@@ -1,42 +1,33 @@
 from random import randint
 
 rules = 'What number is missing in the progression?'
-MIN_COUNT = 5  # Минимальная длина выводимой прогрессии
-MAX_COUNT = 10  # Максимальная длина выводимой прогрессии
-MIN_NUMBER = 1  # Минимальное рандомное число
-MAX_NUMBER = 100  # Максимальное рандомное число
-MIN_STEP = 2  # Минимальный шаг последовательности
-MAX_STEP = 25  # Максимальный шаг последовательности
+MIN_COUNT = 5
+MAX_COUNT = 5
+MIN_NUMBER = 1
+MAX_NUMBER = 100
+MIN_STEP = 2
+MAX_STEP = 25
 
 
-# Описание логики игры
-# Вычисляем прогрессию:
-def make_progression(size, first_num, step):
+# Description of the logic of the game
+def make_progression(size, initial, difference):
     """
     Make arithmetic progression.
     """
-    return [str(first_num + i * step) for i in range(size)]
+    return [initial + i * difference for i in range(size)]
 
 
-def progression_question(prog, member):
-    prog[member] = '..'
-    return ' '.join(prog)
+def make_progression_question(prog, index_hidden_element):
+    prog[index_hidden_element] = '..'
+    return ' '.join([str(member) for member in prog])
 
 
-# Функция возвращает вопрос и правильный ответ
-def game():
-    # Размер последовательности:
+def make_game_data():
     size = randint(MIN_COUNT, MAX_COUNT)
-    # Первый член последовательности:
-    first_element = randint(MIN_NUMBER, MAX_NUMBER)
-    # Шаг последовательности:
-    step = randint(MIN_STEP, MAX_STEP)
-    # Прогрессия:
-    progression = make_progression(size, first_element, step)
-    # Выбираем рандомный член прогресии:
-    random_member = randint(0, size - 1)
-    # Вычисляем правильный ответ:
-    corect_answer = progression[random_member]
-    # Формируем вопрос:
-    question = progression_question(progression, random_member)
+    initial = randint(MIN_NUMBER, MAX_NUMBER)
+    difference = randint(MIN_STEP, MAX_STEP)
+    progression = make_progression(size, initial, difference)
+    index_find_member = randint(0, size - 1)
+    corect_answer = str(progression[index_find_member])
+    question = make_progression_question(progression, index_find_member)
     return question, corect_answer

@@ -1,26 +1,24 @@
 from random import randint
 
 rules = 'Find the greatest common divisor of given numbers.'
-MIN_NUMBER = 2  # Минимальное рандомное число
-MAX_NUMBER = 100  # Максимальное рандомное число
+MIN_NUMBER = 2
+MAX_NUMBER = 100
 
 
-# Описание логики игры
-# Функция вычисляющая НОД:
+# Description of the logic of the game:
 def gcd(a, b):
-    corect_answer = 0
-    for i in range(2, max(a, b)):
-        if a % i == 0 and b % i == 0:
-            corect_answer = i
-    return corect_answer
+    while a != 0 and b != 0:
+        a, b = min(a, b), max(a, b)
+        b = b % a
+    return a + b
 
 
-# Функция возвращает вопрос и правильный ответ
+# The function returns the question and the correct answer
 def game():
     random_number1 = randint(MIN_NUMBER, MAX_NUMBER)
     random_number2 = randint(MIN_NUMBER, MAX_NUMBER)
 
-    # Вычисляем правильный ответ:
+    #Calculating the correct answer:
     corect_answer = gcd(random_number1, random_number2)
     if random_number1 == random_number2:
         corect_answer = random_number1
