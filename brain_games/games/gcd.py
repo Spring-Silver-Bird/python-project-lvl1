@@ -18,7 +18,7 @@ def get_question_and_answer():
     random_number1 = randint(MIN_NUMBER, MAX_NUMBER)
     random_number2 = randint(MIN_NUMBER, MAX_NUMBER)
 
-    #Calculating the correct answer:
+    # Calculating the correct answer:
     corect_answer = gcd(random_number1, random_number2)
     if random_number1 == random_number2:
         corect_answer = random_number1
