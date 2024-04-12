@@ -14,7 +14,7 @@ def gcd(a, b):
 
 
 # The function returns the question and the correct answer
-def game():
+def get_question_and_answer():
     random_number1 = randint(MIN_NUMBER, MAX_NUMBER)
     random_number2 = randint(MIN_NUMBER, MAX_NUMBER)
 
