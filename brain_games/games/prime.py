@@ -1,5 +1,5 @@
 from random import randint
-from math import sqrt, ceil
+from math import ceil
 
 rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -23,7 +23,7 @@ def get_question_and_answer():
 # Checking for parity
 def is_prime(random_number):
     flag = True
-    max_num_for_check = ceil(sqrt(random_number))
+    max_num_for_check = ceil(random_number ** 0.5)
     for i in range(2, max_num_for_check):
         if random_number % i == 0:
             flag = False
